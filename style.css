@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.conteiner {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    height: 13vh;
+    display: flex;
+}
+
+.nav_logo {
+    padding-left: 80px;
+    width: 20%;
+}
+
+.nav_menu {
+    width: 53%;
+    display: flex;
+}
+
+.nav_menu ul {
+    display: flex;
+    padding-top: 45px;
+    padding-left: 280px;
+}
+
+.nav_menu ul li {
+    padding-left: 40px;
+    list-style-type: none;
+    Font-family: Poppins;
+    Font-style: Regular;
+    Font-size: 28px;
+    Line-height: 50px;
+    Line-height: 100%;
+}
+
+.nav_btr {
+    padding-left: 50px;
+    padding-top: 31px;
+}
+
+.Free {
+    width: 350px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid #004AAD;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    Font-family: Inter;
+    Font-style: Semi Bold;
+    Font-size: 33.35px;
+    Line-height: 42px
+}
+
+.header {
+    min-height: 97vh;
+    width: 100%;
+    border: 1px solid blue;
+    background-color: rgba(0, 74, 173, 0.6);
+    display: flex;
+}
+
+.left_header {
+    position: absolute;
+    padding-left: 887px;
+    padding-bottom: 200px;
+}
+
+.right_header ul {
+    padding-left: 100px;
+    color: white;
+    Font-family: Poppins;
+    Font-style: SemiBold;
+    Font-size: 40px;
+    Line-height: 48px;
+    Line-height: 100%;
+    padding-top: 30px;
+}
+
+.right_header ul li {
+    padding-top: 20px;
+}
+
+.right_header h1 {
+    padding-left: 80px;
+    Font-family: Poppins;
+    Font-style: SemiBold;
+    Font-size: 71px;
+    Line-height: 107px;
+    Line-height: 100%;
+    color: white;
+    padding-top: 130px;
+}
+
+.right_header h1 span {
+    color: black;
+}
+
+.Apply {
+    background-color: white;
+    border: 1px solid white;
+    width: 230px;
+    height: 50px;
+    Font-family: Inter;
+    Font-style: Semi Bold;
+    Font-size: 30.35px;
+    Line-height: 37px;
+    Line-height: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: blue;
+}
+
+.button {
+    position: absolute;
+    padding-top: 70px;
+    padding-left: 300px;
+}
+
+.Alumni h1 {
+    Font-family: Poppins;
+    Font-style: SemiBold;
+    Font-size: 53.35px;
+    Line-height: 80px;
+    Line-height: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.Alumni {
+    background-color: #F8F9FA;
+}
+
+.Alumni img {
+    padding-left: 100px;
+}
+
+.main h1 {
+    Font-family: Poppins;
+    Font-style: Regular;
+    Font-size: 82px;
+    text-align: center;
+    Line-height: 123px;
+    Line-height: 100%;
+    padding-top: 70px;
+}
+
+.main h3 {
+    Font-family: Poppins;
+    Font-style: Regular;
+    Font-size: 46px;
+    Line-height: 69px;
+    Line-height: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.up_box {
+    border: 1px solid blue;
+    width: 73.5%;
+    position: absolute;
+    margin-top: 50px;
+    height: 100vh;
+    margin-left: 13%;
+    border-radius: 50px;
+
+
+}
+
+.up_box h2 {
+    Font-family: Poppins;
+    Font-style: Regular;
+    Font-size: 64px;
+    Line-height: 96px;
+    Line-height: 100%;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.up_box h4 {
+    padding-top: 40px;
+    Font-family: Poppins;
+    text-align: center;
+    Font-style: Regular;
+    Font-size: 38px;
+    Line-height: 57px;
+    Line-height: 100%;
+}
+
+.View {
+    color: blue;
+    width: 23%;
+    margin-top: 60px;
+    margin-left: 550px;
+    height: 8vh;
+    background-color: white;
+    border: 1px solid blue;
+    Font-family: Inter;
+    Font-style: Medium;
+    Font-size: 34.35px;
+    Line-height: 42px;
+    Line-height: 100%;
+}
+
+.down_box {
+    border: 1px solid blue;
+    width: 73.6%;
+    position: absolute;
+    margin-top: 1100px;
+    height: 100vh;
+    margin-left: 13%;
+    border-radius: 50px;
+}
+
+.down_box h2 {
+    Font-family: Poppins;
+    Font-style: Regular;
+    Font-size: 64px;
+    Line-height: 96px;
+    Line-height: 100%;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.down_box h4 {
+    padding-top: 40px;
+    Font-family: Poppins;
+    text-align: center;
+    Font-style: Regular;
+    Font-size: 38px;
+    Line-height: 57px;
+    Line-height: 100%;
+}
